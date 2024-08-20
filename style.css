@@ -4,20 +4,64 @@ body {
 }
 
 div{
-    background-color: #64a750;
+    background-color: #5ab641;
     text-align: center;
     box-shadow: 0px 0px 20px currentcolor;
     border-radius: 20px ;
     height: 150px;
     width: 450px;
     margin-left: 35%;
-    margin-top: 80px;
+    margin-top: 50px;
 
 }
 
 div h1 {
-    background-color: rgb(78, 129, 0);
+    background-color: #296b16;
     color: chartreuse;
 }
 
 
+.div1 , .div2 , .div3 {
+    position: absolute;
+}
+
+
+.container {
+    position: relative; 
+    width: 0;
+    height: 0;
+    margin-left: -6px;
+    margin-top: 440px;
+    color: rgb(252, 252, 252);
+}
+
+
+
+.div1 {
+    width: 200px;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+.div2 {
+    width: 20px;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+
+}
+
+.div3 {
+            width: 250px; 
+            height: 20px;
+            bottom: 10 ;
+            left: 15;
+            margin: -36px -60px;
+            transform: rotate(45deg);
+            transform-origin: bottom right;
+            z-index: 3;
+}
